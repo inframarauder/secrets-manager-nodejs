@@ -2,7 +2,7 @@
 const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
-const fs = require("fs");
+const fs = require("fs").promises;
 const retrieveSecrets = require("./retrieveSecrets");
 
 //basic express app setup
